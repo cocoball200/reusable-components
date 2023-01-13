@@ -30,16 +30,13 @@ export default function Home() {
           </a>
         </div>
       </div>
-
+      <h1 className="text-3xl font-bold underline text-red-600 bg-red-100">
+        Hello world!
+      </h1>
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+        <h1 className="text-3xl font-bold underline">
+          Hello world!
+        </h1>
         <div className={styles.thirteen}>
           <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
         </div>
